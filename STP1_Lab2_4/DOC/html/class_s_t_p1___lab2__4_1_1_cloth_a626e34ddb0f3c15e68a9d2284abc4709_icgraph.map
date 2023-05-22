@@ -1,0 +1,9 @@
+<map id="STP1_Lab2_4.Cloth.Cost" name="STP1_Lab2_4.Cloth.Cost">
+<area shape="rect" id="Node000001" title="Метод подсчёта стоимости одежды" alt="" coords="274,56,441,83"/>
+<area shape="rect" id="Node000002" href="$class_s_t_p1___lab2__4_1_1_atelie.html#a430aac9b5e9741e50d515630257fa721" title="Метод подсчёта стоимости всей одежды с учётом дополнительных аксессуаров" alt="" coords="5,5,226,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="275,55,182,35,183,30,276,50"/>
+<area shape="rect" id="Node000003" href="$class_s_t_p1___lab2__4_1_1_atelie.html#a27fb377d9259944b35839e07758d0bd7" title="Метод отображения в консоли данных об ателье с одеждой в количестве 3 штук" alt="" coords="22,56,209,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="259,72,209,72,209,67,259,67"/>
+<area shape="rect" id="Node000004" href="$class_s_t_p1___lab2__4_1_1_atelie.html#ad692917f3a487f72b6642ea838b5e7d0" title="Метод нахождения самого дорого изделия" alt="" coords="14,107,217,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="276,89,183,109,182,103,275,84"/>
+</map>

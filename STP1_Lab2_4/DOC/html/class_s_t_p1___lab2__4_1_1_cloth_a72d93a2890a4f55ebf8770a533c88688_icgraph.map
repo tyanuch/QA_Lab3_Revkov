@@ -1,0 +1,5 @@
+<map id="STP1_Lab2_4.Cloth.Display" name="STP1_Lab2_4.Cloth.Display">
+<area shape="rect" id="Node000001" title="Метод отображения в консоли данных об одежде" alt="" coords="240,5,423,32"/>
+<area shape="rect" id="Node000002" href="$class_s_t_p1___lab2__4_1_1_atelie.html#a27fb377d9259944b35839e07758d0bd7" title="Метод отображения в консоли данных об ателье с одеждой в количестве 3 штук" alt="" coords="5,5,192,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,21,192,21,192,16,224,16"/>
+</map>

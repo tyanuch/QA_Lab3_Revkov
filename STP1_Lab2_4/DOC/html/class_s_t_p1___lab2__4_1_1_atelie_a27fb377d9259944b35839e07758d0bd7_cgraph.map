@@ -1,0 +1,7 @@
+<map id="STP1_Lab2_4.Atelie.Display" name="STP1_Lab2_4.Atelie.Display">
+<area shape="rect" id="Node000001" title="Метод отображения в консоли данных об ателье с одеждой в количестве 3 штук" alt="" coords="5,31,192,57"/>
+<area shape="rect" id="Node000002" href="$class_s_t_p1___lab2__4_1_1_cloth.html#a626e34ddb0f3c15e68a9d2284abc4709" title="Метод подсчёта стоимости одежды" alt="" coords="248,5,415,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,31,233,27,233,32,192,36"/>
+<area shape="rect" id="Node000003" href="$class_s_t_p1___lab2__4_1_1_cloth.html#a72d93a2890a4f55ebf8770a533c88688" title="Метод отображения в консоли данных об одежде" alt="" coords="240,56,423,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,52,225,55,225,60,192,57"/>
+</map>

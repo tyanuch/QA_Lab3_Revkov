@@ -1,0 +1,162 @@
+\doxysection{Класс STP1\+\_\+\+Lab2\+\_\+4.\+Atelie}
+\hypertarget{class_s_t_p1___lab2__4_1_1_atelie}{}\label{class_s_t_p1___lab2__4_1_1_atelie}\index{STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}}
+
+
+Основной класс Atelie содержит информацию об ателье и использует вспомогательный класс Cloth.  
+
+
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_s_t_p1___lab2__4_1_1_atelie_a2e1eb77acae1a1ce50c5ecd758f2d187}{Init}} (float P1, int A1, float P2, int A2, float P3, int A3, int AI1, int AI2, int AI3, int C)
+\begin{DoxyCompactList}\small\item\em Метод инициализации данных ателье с одеждой в количестве 3 штук \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_t_p1___lab2__4_1_1_atelie_aa2ca4e4a86a072af484d536dc88ce259}{Read}} ()
+\begin{DoxyCompactList}\small\item\em Метод чтения с консоли данных ателье с одеждой в количестве 3 штук \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_t_p1___lab2__4_1_1_atelie_a27fb377d9259944b35839e07758d0bd7}{Display}} ()
+\begin{DoxyCompactList}\small\item\em Метод отображения в консоли данных об ателье с одеждой в количестве 3 штук \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_t_p1___lab2__4_1_1_atelie_a971e232d1a3d36667a019ceb7dd9d782}{Name}} ()
+\begin{DoxyCompactList}\small\item\em Метод инициализации имени ателье путём чтения с консоли данных введённой информации \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_s_t_p1___lab2__4_1_1_atelie_a430aac9b5e9741e50d515630257fa721}{Cost\+With\+Dop}} ()
+\begin{DoxyCompactList}\small\item\em Метод подсчёта стоимости всей одежды с учётом дополнительных аксессуаров \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_s_t_p1___lab2__4_1_1_cloth}{Cloth}} \mbox{\hyperlink{class_s_t_p1___lab2__4_1_1_atelie_ad692917f3a487f72b6642ea838b5e7d0}{Expensive}} ()
+\begin{DoxyCompactList}\small\item\em Метод нахождения самого дорого изделия \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Основной класс Atelie содержит информацию об ателье и использует вспомогательный класс Cloth. 
+
+\begin{DoxyAuthor}{Автор}
+Viktor Revkov
+\end{DoxyAuthor}
+ 
+
+\doxysubsection{Методы}
+\Hypertarget{class_s_t_p1___lab2__4_1_1_atelie_a430aac9b5e9741e50d515630257fa721}\label{class_s_t_p1___lab2__4_1_1_atelie_a430aac9b5e9741e50d515630257fa721} 
+\index{STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}!CostWithDop@{CostWithDop}}
+\index{CostWithDop@{CostWithDop}!STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}}
+\doxysubsubsection{\texorpdfstring{CostWithDop()}{CostWithDop()}}
+{\footnotesize\ttfamily double STP1\+\_\+\+Lab2\+\_\+4.\+Atelie.\+Cost\+With\+Dop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод подсчёта стоимости всей одежды с учётом дополнительных аксессуаров 
+
+\begin{DoxyReturn}{Возвращает}
+Метод использует поля класса Cloth и его метод Cost(), вследствие чего возвращает стоимость всех изделий, что высчитывается по формуле\+: \$\$\+Total Cost = Cost\+\_\+\{1\} \texorpdfstring{$\ast$}{*} Amount\+I1 + Cost\+\_\+\{2\} \texorpdfstring{$\ast$}{*} Amount\+I1 + Cost\+\_\+\{3\} \texorpdfstring{$\ast$}{*} Amount\+I1 + Cost\+Dop\+I\$\$ 
+\end{DoxyReturn}
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_t_p1___lab2__4_1_1_atelie_a430aac9b5e9741e50d515630257fa721_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_s_t_p1___lab2__4_1_1_atelie_a27fb377d9259944b35839e07758d0bd7}\label{class_s_t_p1___lab2__4_1_1_atelie_a27fb377d9259944b35839e07758d0bd7} 
+\index{STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}!Display@{Display}}
+\index{Display@{Display}!STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}}
+\doxysubsubsection{\texorpdfstring{Display()}{Display()}}
+{\footnotesize\ttfamily void STP1\+\_\+\+Lab2\+\_\+4.\+Atelie.\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод отображения в консоли данных об ателье с одеждой в количестве 3 штук 
+
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_t_p1___lab2__4_1_1_atelie_a27fb377d9259944b35839e07758d0bd7_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_s_t_p1___lab2__4_1_1_atelie_ad692917f3a487f72b6642ea838b5e7d0}\label{class_s_t_p1___lab2__4_1_1_atelie_ad692917f3a487f72b6642ea838b5e7d0} 
+\index{STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}!Expensive@{Expensive}}
+\index{Expensive@{Expensive}!STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}}
+\doxysubsubsection{\texorpdfstring{Expensive()}{Expensive()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_s_t_p1___lab2__4_1_1_cloth}{Cloth}} STP1\+\_\+\+Lab2\+\_\+4.\+Atelie.\+Expensive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод нахождения самого дорого изделия 
+
+\begin{DoxyReturn}{Возвращает}
+Метод возвращает поле от вспомогательного класса, которое имеет наибольшую стоимость 
+\end{DoxyReturn}
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_t_p1___lab2__4_1_1_atelie_ad692917f3a487f72b6642ea838b5e7d0_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_s_t_p1___lab2__4_1_1_atelie_a2e1eb77acae1a1ce50c5ecd758f2d187}\label{class_s_t_p1___lab2__4_1_1_atelie_a2e1eb77acae1a1ce50c5ecd758f2d187} 
+\index{STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}!Init@{Init}}
+\index{Init@{Init}!STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily void STP1\+\_\+\+Lab2\+\_\+4.\+Atelie.\+Init (\begin{DoxyParamCaption}\item[{float}]{P1,  }\item[{int}]{A1,  }\item[{float}]{P2,  }\item[{int}]{A2,  }\item[{float}]{P3,  }\item[{int}]{A3,  }\item[{int}]{AI1,  }\item[{int}]{AI2,  }\item[{int}]{AI3,  }\item[{int}]{C }\end{DoxyParamCaption})}
+
+
+
+Метод инициализации данных ателье с одеждой в количестве 3 штук 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em P1} & Цена ткани первой одежды\\
+\hline
+{\em A1} & Количество ткани первой одежды\\
+\hline
+{\em P2} & Цена ткани второй одежды\\
+\hline
+{\em A2} & Количество ткани первой одежды\\
+\hline
+{\em P3} & Цена ткани третьей одежды\\
+\hline
+{\em A3} & Количество ткани первой одежды\\
+\hline
+{\em AI1} & Количество изделий для первой одежды\\
+\hline
+{\em AI2} & Количество изделий для второй одежды\\
+\hline
+{\em AI3} & Количество изделий для третьей одежды\\
+\hline
+{\em C} & Стоимость дополнительных аксессуаров\\
+\hline
+\end{DoxyParams}
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_t_p1___lab2__4_1_1_atelie_a2e1eb77acae1a1ce50c5ecd758f2d187_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_s_t_p1___lab2__4_1_1_atelie_a971e232d1a3d36667a019ceb7dd9d782}\label{class_s_t_p1___lab2__4_1_1_atelie_a971e232d1a3d36667a019ceb7dd9d782} 
+\index{STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}!Name@{Name}}
+\index{Name@{Name}!STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}}
+\doxysubsubsection{\texorpdfstring{Name()}{Name()}}
+{\footnotesize\ttfamily void STP1\+\_\+\+Lab2\+\_\+4.\+Atelie.\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод инициализации имени ателье путём чтения с консоли данных введённой информации 
+
+\Hypertarget{class_s_t_p1___lab2__4_1_1_atelie_aa2ca4e4a86a072af484d536dc88ce259}\label{class_s_t_p1___lab2__4_1_1_atelie_aa2ca4e4a86a072af484d536dc88ce259} 
+\index{STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}!Read@{Read}}
+\index{Read@{Read}!STP1\_Lab2\_4.Atelie@{STP1\_Lab2\_4.Atelie}}
+\doxysubsubsection{\texorpdfstring{Read()}{Read()}}
+{\footnotesize\ttfamily void STP1\+\_\+\+Lab2\+\_\+4.\+Atelie.\+Read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод чтения с консоли данных ателье с одеждой в количестве 3 штук 
+
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_t_p1___lab2__4_1_1_atelie_aa2ca4e4a86a072af484d536dc88ce259_cgraph}
+\end{center}
+\end{figure}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/79833/source/repos/\+STP1\+\_\+\+Lab2\+\_\+4/\+STP1\+\_\+\+Lab2\+\_\+4/\mbox{\hyperlink{_atelie_8cs}{Atelie.\+cs}}\end{DoxyCompactItemize}

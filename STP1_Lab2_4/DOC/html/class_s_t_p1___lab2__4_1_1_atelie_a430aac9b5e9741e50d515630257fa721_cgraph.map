@@ -1,0 +1,5 @@
+<map id="STP1_Lab2_4.Atelie.CostWithDop" name="STP1_Lab2_4.Atelie.CostWithDop">
+<area shape="rect" id="Node000001" title="Метод подсчёта стоимости всей одежды с учётом дополнительных аксессуаров" alt="" coords="5,5,226,32"/>
+<area shape="rect" id="Node000002" href="$class_s_t_p1___lab2__4_1_1_cloth.html#a626e34ddb0f3c15e68a9d2284abc4709" title="Метод подсчёта стоимости одежды" alt="" coords="274,5,441,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,16,259,16,259,21,226,21"/>
+</map>
